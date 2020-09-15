@@ -50,16 +50,19 @@ function AnalyseData() {
 # Output Data
 function OutputData() {
     cnacc_dns=(
-        "https://dns.pub:443/dns-query"
-        "tls://dns.alidns.com:853"
+        "https://dns.alidns.com/dns-query"
+        "https://doh.pub/dns-query"
+        “114.114.114.114”
     )
     combine_dns=(
-        "https://dns.alidns.com:443/dns-query"
-        "tls://dns.pub:853"
+        "https://dns.alidns.com/dns-query"
+        "https://doh.pub/dns-query"
+        “114.114.114.114”
     )
     gfwlist_dns=(
-        "https://doh.opendns.com:443/dns-query"
-        "tls://dns.google:853"
+        "https://dns.google/dns-query"
+        "https://dns.cloudflare.com/dns-query"
+        “8.8.8.8”
     )
     for (( upstream_dns_task = 0; upstream_dns_task < 3; upstream_dns_task++ )); do
         case ${upstream_dns_task} in

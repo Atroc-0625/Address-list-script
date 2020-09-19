@@ -43,4 +43,4 @@ curl -s https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/
 
 curl -s https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/bogus-nxdomain.china.conf >./bogus-nxdomain.china.conf
 
-cat accelerated-domains.china.conf apple.china.conf google.china.conf bogus-nxdomain.china.conf >> combine-domains.china.conf
+cat accelerated-domains.china.conf apple.china.conf google.china.conf  >> combine-domains.china.conf

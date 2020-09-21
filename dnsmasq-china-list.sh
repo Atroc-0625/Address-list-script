@@ -45,4 +45,6 @@ curl -s https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/
 
 curl -s https://raw.githubusercontent.com/Atroc-0625/Fool./master/customize.conf >./customize.conf
 
-cat accelerated-domains.china.conf apple.china.conf google.china.conf customize.conf >> combine-domains.china.conf
+cat accelerated-domains.china.conf apple.china.conf google.china.conf >> combine-domains.china.conf
+
+cat accelerated-domains.china.conf apple.china.conf google.china.conf customize.conf >> combine-domains-play.china.conf

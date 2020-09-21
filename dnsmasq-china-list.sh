@@ -43,6 +43,6 @@ curl -s https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/
 
 curl -s https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/bogus-nxdomain.china.conf >./bogus-nxdomain.china.conf
 
-curl -s https://raw.githubusercontent.com/Atroc-0625/Address-list-script/master/customize.conf >./customize.conf
+curl -s https://raw.githubusercontent.com/Atroc-0625/Fool./master/customize.conf >./customize.conf
 
 cat accelerated-domains.china.conf apple.china.conf google.china.conf customize.conf >> combine-domains.china.conf

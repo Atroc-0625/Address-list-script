@@ -231,6 +231,7 @@ add address=42.240.0.0/16 list=CN
 add address=42.242.0.0/15 list=CN
 add address=42.244.0.0/14 list=CN
 add address=42.248.0.0/13 list=CN
+add address=43.128.0.0/10 list=CN
 add address=43.224.12.0/22 list=CN
 add address=43.224.24.0/22 list=CN
 add address=43.224.44.0/22 list=CN

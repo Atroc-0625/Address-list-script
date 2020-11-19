@@ -300,7 +300,7 @@ add regexp="(\\.|^)apiary\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apidocs\\.linksalpha\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apigee\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apk-dl\\.com\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)apkdler\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)apkcombo\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apkmirror\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apkmonk\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)apkplz\\.com\$" type=FWD forward-to=$gfwdns

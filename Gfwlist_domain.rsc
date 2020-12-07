@@ -560,7 +560,6 @@ add regexp="(\\.|^)blog\\.foolsmountain\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blog\\.fuckgfw233\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blog\\.goo\\.ne\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blog\\.google\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)blog\\.inoreader\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blog\\.istef\\.info\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blog\\.jackjia\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)blog\\.jp\$" type=FWD forward-to=$gfwdns
@@ -2648,6 +2647,7 @@ add regexp="(\\.|^)initiativesforchina\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inkui\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inmediahk\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)innermongolia\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)inoreader\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)inote\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)insecam\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)insidevoa\\.com\$" type=FWD forward-to=$gfwdns

@@ -35,6 +35,7 @@ else
     ${sudoCmd} ${systemPackage} install wget -y -qq
 fi
 
+rm -rf accelerated-domains.china.conf && rm -rf apple.china.conf && rm -rf google.china.conf && rm -rf bogus-nxdomain.china.conf && rm -rf customize.conf && rm -rf combine-domains.china.conf && rm -rf combine-domains-play.china.conf
 curl -s https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf >./accelerated-domains.china.conf
 
 curl -s https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf >./apple.china.conf

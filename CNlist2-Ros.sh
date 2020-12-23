@@ -63,4 +63,6 @@ sed -i '2 i/ip firewall address-list remove [/ip firewall address-list find list
 
 #5、在文件第3行前插入新行"/ip firewall address-list"
 sed -i '3 i/ip firewall address-list' ${cn_filename}
+
+
 rm -rf CNlist2-Ros.sh

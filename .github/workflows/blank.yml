@@ -2,7 +2,7 @@ name: Build & Release Atroc-0625/Address-list-script
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
     - cron: "0 11 */3 * *"
   watch:

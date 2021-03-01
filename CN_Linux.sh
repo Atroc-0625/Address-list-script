@@ -42,4 +42,4 @@ cn_filename="CN_Linux.text"
 
 sed -i '/^#.*/d' ${cn_filename}
 
-sed -i 's/\(.*\)/ip route add \1 via=192.168.224.1/g' ${cn_filename}
+sed -i 's/\(.*\)/ip route add \1 via 192.168.224.1/g' ${cn_filename}

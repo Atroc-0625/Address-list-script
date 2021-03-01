@@ -40,4 +40,4 @@ wget -N --no-check-certificate -O ./CN_Linux.text http://www.iwik.org/ipcountry/
 
 cn_filename="CN_Linux.text"
 
-sed -i 's/\(.*\)/ip route add\1 via=192.168.224.1/g' ${cn_filename}
+sed -i 's/\(.*\)/ip route add \1 via=192.168.224.1/g' ${cn_filename}

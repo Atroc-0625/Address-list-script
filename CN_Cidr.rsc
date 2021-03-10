@@ -829,7 +829,6 @@ add address=59.153.192.0/22 list=CN
 add address=59.155.0.0/16 list=CN
 add address=59.172.0.0/14 list=CN
 add address=59.191.0.0/17 list=CN
-add address=59.191.240.0/20 list=CN
 add address=59.192.0.0/10 list=CN
 add address=60.0.0.0/11 list=CN
 add address=60.55.0.0/16 list=CN

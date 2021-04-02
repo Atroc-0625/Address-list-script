@@ -35,7 +35,7 @@ else
     ${sudoCmd} ${systemPackage} install wget -y -qq
 fi
 
-wget -N --no-check-certificate -O ./CN_Cidr.rsc https://ispip.clang.cn/all_cn_cidr.txt
+wget -N --no-check-certificate -O ./CN_Cidr.rsc http://www.iwik.org/ipcountry/CN.cidr
 
 
 cn_filename="CN_Cidr.rsc"
@@ -47,6 +47,7 @@ echo "10.0.0.0/8" >> ${cn_filename}
 
 #开始处理 cn_filename 内容
 #方法1
+sed -i '/^#.*/d' ${cn_filename}
 sed -i 's/\(.*\)/add address=\1 list=CN/g' ${cn_filename}
 #方法2
 #1、每行行首增加字符串"add address="

@@ -35,16 +35,13 @@ else
     ${sudoCmd} ${systemPackage} install wget -y -qq
 fi
 
-wget -N --no-check-certificate -O ./Scaners.rsc https://cache-1.oss-cn-beijing.aliyuncs.com/file/scaners.rsc
+wget -N --no-check-certificate -O ./Scaners.txt https://cache-1.oss-cn-beijing.aliyuncs.com/file/scaners.rsc
 
-cat Scaners.rsc |awk  '{print $2}'|awk -F '=' '{print $2}'|grep -v '^$' >>Scaners.rsc
+cat Scaners.txt |awk  '{print $2}'|awk -F '=' '{print $2}'|grep -v '^$' >>Scaners.rsc
+
+rm -rf ./Scaners.txt
 
 cn_filename="Scaners.rsc"
-
-#增加私有地址
-#echo "192.168.0.0/16" >> ${cn_filename}
-#echo "172.16.0.0/12" >> ${cn_filename}
-#echo "10.0.0.0/8" >> ${cn_filename}
 
 #开始处理 cn_filename 内容
 #方法1

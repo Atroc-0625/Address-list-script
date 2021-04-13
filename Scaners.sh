@@ -35,9 +35,9 @@ else
     ${sudoCmd} ${systemPackage} install wget -y -qq
 fi
 
-wget -N --no-check-certificate -O ./Scaners.test https://cache-1.oss-cn-beijing.aliyuncs.com/file/scaners.rsc
+wget -N --no-check-certificate -O ./Scaners.rsc https://cache-1.oss-cn-beijing.aliyuncs.com/file/scaners.rsc
 
-cat Scaners.test |awk -F'=' '{print $2}'|awk '{print $1}' >>Scaners.rsc
+cat Scaners.rsc |awk  '{print $2}'|awk -F '=' '{print $2}'|grep -v '^$' >>Scaners.rsc
 
 cn_filename="Scaners.rsc"
 

@@ -37,6 +37,8 @@ fi
 
 rm -rf ./Scaners.rsc
 
+rm -rf ./Scaners.txt
+
 wget -N --no-check-certificate -O ./Scaners.txt https://cache-1.oss-cn-beijing.aliyuncs.com/file/scaners.rsc
 
 cat Scaners.txt |awk  '{print $2}'|awk -F '=' '{print $2}'|grep -v '^$' >>Scaners.rsc

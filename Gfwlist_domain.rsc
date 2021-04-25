@@ -1982,6 +1982,7 @@ add regexp="(\\.|^)geti2p\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getiton\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getjetso\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getlantern\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)getmalus\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getmdl\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getoutline\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getsocialscope\\.com\$" type=FWD forward-to=$gfwdns
@@ -3805,6 +3806,7 @@ add regexp="(\\.|^)ourtv\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)overdaily\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)overplay\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)oversea\\.istarshine\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)ovpn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ow\\.ly\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)owl\\.li\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)owltail\\.com\$" type=FWD forward-to=$gfwdns
@@ -3949,6 +3951,7 @@ add regexp="(\\.|^)player\\.fm\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)playno1\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)playpcesor\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)plays\\.com\\.tw\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)plexvpn\\.pro\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)plm\\.org\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)plunder\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)plurk\\.com\$" type=FWD forward-to=$gfwdns

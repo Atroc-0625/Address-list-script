@@ -4181,6 +4181,7 @@ ip route add 103.166.50.0/23 via 192.168.224.1
 ip route add 103.166.52.0/23 via 192.168.224.1
 ip route add 103.166.54.0/23 via 192.168.224.1
 ip route add 103.166.84.0/23 via 192.168.224.1
+ip route add 103.166.138.0/23 via 192.168.224.1
 ip route add 103.192.0.0/22 via 192.168.224.1
 ip route add 103.192.4.0/22 via 192.168.224.1
 ip route add 103.192.8.0/22 via 192.168.224.1

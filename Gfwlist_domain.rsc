@@ -1581,6 +1581,7 @@ add regexp="(\\.|^)etokki\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etools\\.ncol\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etowns\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etowns\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)etsy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)ettoday\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)etvonline\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)eu\\.org\$" type=FWD forward-to=$gfwdns
@@ -3264,6 +3265,7 @@ add regexp="(\\.|^)meetav\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)meetup\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mefeedia\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mefound\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)mega\\.co\\.nz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mega\\.nz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)megaproxy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)megarotic\\.com\$" type=FWD forward-to=$gfwdns
@@ -3351,6 +3353,7 @@ add regexp="(\\.|^)mitao\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mitbbs\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mitbbsau\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mixero\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)mixi\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mixpod\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mixx\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mizzmona\\.com\$" type=FWD forward-to=$gfwdns
@@ -3581,7 +3584,7 @@ add regexp="(\\.|^)newsdh\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)newspeak\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)newstamago\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)newstapa\\.org\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)newstarnet\\.com--NN--\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)newstarnet\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)newsweek\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)newtaiwan\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)newtalk\\.tw\$" type=FWD forward-to=$gfwdns

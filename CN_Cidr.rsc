@@ -1,7 +1,6 @@
 /log info "Loading CN ipv4 address list"
 /ip firewall address-list remove [/ip firewall address-list find list=CN]
 /ip firewall address-list
-add address=5.180.96.0/22 list=CN
 add address=5.182.60.0/22 list=CN
 add address=45.81.32.0/22 list=CN
 add address=45.82.236.0/22 list=CN
@@ -4185,6 +4184,7 @@ add address=103.166.52.0/23 list=CN
 add address=103.166.54.0/23 list=CN
 add address=103.166.84.0/23 list=CN
 add address=103.166.138.0/23 list=CN
+add address=103.166.242.0/23 list=CN
 add address=103.192.0.0/22 list=CN
 add address=103.192.4.0/22 list=CN
 add address=103.192.8.0/22 list=CN

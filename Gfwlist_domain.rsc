@@ -3538,6 +3538,7 @@ add regexp="(\\.|^)neo-miracle\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)neowin\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nepusoku\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)net-fits\\.pro\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)netalert\\.me\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)netbirds\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)netcolony\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)netflav\\.com\$" type=FWD forward-to=$gfwdns
@@ -5323,6 +5324,7 @@ add regexp="(\\.|^)v2fly\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)v2ray\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)v2raycn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)v2raytech\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)valeursactuelles\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)van001\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)van698\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)vanemu\\.cn\$" type=FWD forward-to=$gfwdns

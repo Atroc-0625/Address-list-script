@@ -511,6 +511,7 @@ add regexp="(\\.|^)belamionline\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bell\\.wiki\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bemywife\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)beric\\.me\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)berlinerbericht\\.de\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)berlintwitterwall\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)berm\\.co\\.nz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)bestforchina\\.org\$" type=FWD forward-to=$gfwdns

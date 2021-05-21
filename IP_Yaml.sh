@@ -65,7 +65,11 @@ sed -i 's/\(.*\)/  - '\1'/g' ${TW_filename}
 #sed -i 's/$/& list=CN/g' ${cn_filename}
 
 #3、在文件第1行前插入新行"/log info "Loading CN ipv4 address list""
-sed -i '1 ipayload:' 
+sed -i '1 ipayload:' ${US_filename}
+
+sed -i '1 ipayload:' ${JP_filename}
+
+sed -i '1 ipayload:' ${TW_filename}
 
 #4、在文件第2行前插入新行"/ip firewall address-list remove [/ip firewall address-list find list=CN]"
 #sed -i '2 i/ip firewall address-list remove [/ip firewall address-list find list=Scaners]' ${cn_filename}

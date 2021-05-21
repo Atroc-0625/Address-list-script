@@ -2,7 +2,6 @@
 /ip firewall address-list remove [/ip firewall address-list find list=CN]
 /ip firewall address-list
 add address=5.182.60.0/22 list=CN
-add address=45.81.32.0/22 list=CN
 add address=45.82.236.0/22 list=CN
 add address=45.82.240.0/22 list=CN
 add address=45.85.76.0/22 list=CN

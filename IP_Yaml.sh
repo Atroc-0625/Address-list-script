@@ -50,13 +50,13 @@ TW_filename="TW_Cidr.yaml"
 #开始处理 cn_filename 内容
 #方法1
 sed -i '/^#.*/d' ${US_filename}
-sed -i 's/\(.*\)/  - '\1 '/g' ${US_filename}
+sed -i 's/\(.*\)/  - "'"\1"'"/g' ${US_filename}
 
 sed -i '/^#.*/d' ${JP_filename}
-sed -i 's/\(.*\)/  - '\1 '/g' ${JP_filename}
+sed -i 's/\(.*\)/  - "'"\1"'"/g' ${JP_filename}
 
 sed -i '/^#.*/d' ${TW_filename}
-sed -i 's/\(.*\)/  - '\1 '/g' ${TW_filename}
+sed -i 's/\(.*\)/  - "'"\1"'"/g' ${TW_filename}
 #方法2
 #1、每行行首增加字符串"add address="
 #sed -i 's/^/add address=&/g' ${cn_filename}

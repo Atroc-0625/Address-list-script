@@ -3267,6 +3267,7 @@ add regexp="(\\.|^)meetup\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mefeedia\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mefound\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mega\\.co\\.nz\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)mega\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)mega\\.nz\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)megaproxy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)megarotic\\.com\$" type=FWD forward-to=$gfwdns

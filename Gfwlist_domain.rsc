@@ -423,6 +423,7 @@ add regexp="(\\.|^)azubu\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)azurewebsites\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)b-ok\\.cc\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)b0ne\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)babylonbee\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)babynet\\.com\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backchina\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)backpackers\\.com\\.tw\$" type=FWD forward-to=$gfwdns
@@ -2746,6 +2747,8 @@ add regexp="(\\.|^)incapdns\\.net\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)incloak\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)incredibox\\.fr\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)independent\\.co\\.uk\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)indiablooms\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)indianarrative\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)indiandefensenews\\.in\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)indiemerch\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)info-graf\\.fr\$" type=FWD forward-to=$gfwdns

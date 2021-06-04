@@ -5520,7 +5520,9 @@ ip route add 116.193.152.0/22 via 192.168.224.1
 ip route add 116.193.164.0/22 via 192.168.224.1
 ip route add 116.193.176.0/21 via 192.168.224.1
 ip route add 116.194.0.0/15 via 192.168.224.1
-ip route add 116.196.0.0/16 via 192.168.224.1
+ip route add 116.196.0.0/17 via 192.168.224.1
+ip route add 116.196.128.0/18 via 192.168.224.1
+ip route add 116.196.192.0/18 via 192.168.224.1
 ip route add 116.197.160.0/22 via 192.168.224.1
 ip route add 116.197.164.0/22 via 192.168.224.1
 ip route add 116.198.0.0/16 via 192.168.224.1
@@ -5995,7 +5997,8 @@ ip route add 124.47.0.0/18 via 192.168.224.1
 ip route add 124.64.0.0/15 via 192.168.224.1
 ip route add 124.66.0.0/17 via 192.168.224.1
 ip route add 124.67.0.0/16 via 192.168.224.1
-ip route add 124.68.0.0/14 via 192.168.224.1
+ip route add 124.68.0.0/15 via 192.168.224.1
+ip route add 124.70.0.0/15 via 192.168.224.1
 ip route add 124.72.0.0/16 via 192.168.224.1
 ip route add 124.73.0.0/16 via 192.168.224.1
 ip route add 124.74.0.0/15 via 192.168.224.1
@@ -6128,7 +6131,8 @@ ip route add 140.143.0.0/16 via 192.168.224.1
 ip route add 140.179.0.0/16 via 192.168.224.1
 ip route add 140.205.0.0/16 via 192.168.224.1
 ip route add 140.206.0.0/15 via 192.168.224.1
-ip route add 140.210.0.0/16 via 192.168.224.1
+ip route add 140.210.0.0/17 via 192.168.224.1
+ip route add 140.210.128.0/17 via 192.168.224.1
 ip route add 140.224.0.0/16 via 192.168.224.1
 ip route add 140.237.0.0/16 via 192.168.224.1
 ip route add 140.240.0.0/16 via 192.168.224.1

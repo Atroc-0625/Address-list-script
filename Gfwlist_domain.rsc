@@ -5015,7 +5015,9 @@ add regexp="(\\.|^)tor\\.updatestar\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)tora\\.to\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torcn\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torguard\\.net\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)torlock\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torproject\\.org\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)torrentkitty\\.tv\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torrentprivacy\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torrentproject\\.se\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)torrenty\\.org\$" type=FWD forward-to=$gfwdns

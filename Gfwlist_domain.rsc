@@ -3598,6 +3598,7 @@ add regexp="(\\.|^)newyorker\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)newyorktimes\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nexon\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)next11\\.co\\.jp\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)nextdigital\\.com\\.hk\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nextmag\\.com\\.tw\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nextmedia\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)nexton-net\\.jp\$" type=FWD forward-to=$gfwdns

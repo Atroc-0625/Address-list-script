@@ -2011,7 +2011,6 @@ add regexp="(\\.|^)gifree\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)giga-web\\.jp\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gigporno\\.ru\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)girlbanker\\.com\$" type=FWD forward-to=$gfwdns
-add regexp="(\\.|^)gist\\.github\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)git\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)github\\.blog\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)github\\.com\$" type=FWD forward-to=$gfwdns

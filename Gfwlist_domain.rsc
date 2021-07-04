@@ -1993,6 +1993,7 @@ add regexp="(\\.|^)getmdl\\.io\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getoutline\\.org\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getsocialscope\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getsync\\.com\$" type=FWD forward-to=$gfwdns
+add regexp="(\\.|^)gettr\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gettrials\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)gettyimages\\.com\$" type=FWD forward-to=$gfwdns
 add regexp="(\\.|^)getuploader\\.com\$" type=FWD forward-to=$gfwdns
